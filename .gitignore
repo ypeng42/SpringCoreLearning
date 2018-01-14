@@ -1,0 +1,37 @@
+/out
+/target
+
+# If people in company are not using the same IDE, get rid of the whole .idea folder and also iml file
+# If people do use the same IDE, then follow this guide
+# Read: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
+# StackOverflow: https://stackoverflow.com/questions/11968531/what-to-gitignore-from-the-idea-folder
+# Basically, ignoring workspace.xml and tasks.xml is enough if want to share IDE file
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+# JIRA plugin
+atlassian-ide-plugin.xml
