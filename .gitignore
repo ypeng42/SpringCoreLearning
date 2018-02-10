@@ -1,5 +1,7 @@
 /out
 /target
+/.idea
+*.iml
 
 # If people in company are not using the same IDE, get rid of the whole .idea folder and also iml file
 # If people do use the same IDE, then follow this guide
